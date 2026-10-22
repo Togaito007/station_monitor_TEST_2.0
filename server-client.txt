@@ -1,0 +1,9 @@
+┌─────────────────┐    HTTP API    ┌──────────────────┐
+│   Client UI     │◄──────────────►│   Web Server     │
+│  (ui_main.py)   │                │  (monitor.py)    │
+│                 │                │                  │
+│ • Polls status  │                │ • Monitors 37    │
+│ • Shows UI      │                │   stations       │
+│ • Multiple      │                │ • Serves API     │
+│   instances     │                │ • Shared logs    │
+└─────────────────┘                └──────────────────┘

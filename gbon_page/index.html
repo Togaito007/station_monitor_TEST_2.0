@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBON Station Surveillance Dashboard</title>
+    <style><!--CSS--></style>
+</head>
+<body>
+    <div class="toast-container" id="toastContainer"></div>
+    <div class="shell">
+        <div class="topbar">
+            <div class="brand">
+                <span class="brand-mark"></span>
+                <h1>GBON Surveillance Dashboard</h1>
+            </div>
+
+            <div class="top-actions">
+                <div class="filter-box">
+                    <label for="statusFilter">Filter</label>
+                    <select id="statusFilter">
+                        <option value="all">All</option>
+                        <option value="up">Up Only</option>
+                        <option value="down">Down Only</option>
+                    </select>
+                </div>
+                <div class="refresh-box"><span class="label">Current Time</span> <span class="value" id="currentTime">--:--:--</span></div>
+                <div class="refresh-box"><span class="label">Last Checked</span> <span class="value" id="lastChecked">--:--:--</span></div>
+                <button id="themeToggle" class="theme-toggle" type="button">🌙 Dark</button>
+            </div>
+        </div>
+
+        <div class="status-pills">
+            <span class="pill"><span class="dot" style="background: var(--green);"></span>Live Feed</span>
+            <span class="pill"><span class="dot" style="background: var(--blue);"></span>Auto Refresh</span>
+        </div>
+
+        <div class="stats" style="margin-top: 18px;">
+            <div class="card stat-card">
+                <div class="stat-label">Stations</div>
+                <div class="stat-value" id="totalStations">0</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-label">Online</div>
+                <div class="stat-value" id="onlineStations" style="color: var(--green);">0</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-label">Alerts</div>
+                <div class="stat-value" id="alertCount" style="color: var(--red);">0</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-label">Notifications</div>
+                <div class="stat-value" id="notificationCount" style="color: var(--orange);">0</div>
+            </div>
+        </div>
+
+        <div class="layout">
+            <div class="card panel">
+                <div class="panel-header">
+                    <h2>Monitored Stations</h2>
+                </div>
+                <div id="stationsGrid" class="grid"></div>
+            </div>
+
+            <div class="card panel">
+                <div class="panel-header">
+                    <h2>Alerts & Notifications</h2>
+                </div>
+                <div id="alertsPanel" class="alert-panel"></div>
+            </div>
+        </div>
+    </div>
+
+    <script><!--JS--></script>
+</body>
+</html>

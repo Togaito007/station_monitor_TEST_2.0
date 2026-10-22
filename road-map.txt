@@ -1,0 +1,57 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                    Application (main.py)                         │
+│  ┌─────────────────────────────────────────────────────────────┐│
+│  │ PyQt5 UI (ui_main.py)                                       ││
+│  │ ┌──────────────────────────────────────────────────────────┐││
+│  │ │ MonitorWindow                                            │││
+│  │ │ • 37 Stations in alphabetical list with color indicators │││
+│  │ │ • Settings panel (refresh rate, notifications, alerts)   │││
+│  │ │ • Notifications window                                   │││
+│  │ │ • Station log viewer/exporter                            │││
+│  │ │ • Real-time status & battery voltage display             │││
+│  └──────────────────────────────────────────────────────────┐││
+│  │                                                              ││
+│  └──────────────────────────────────────────────────────────┘││
+└──────────────────────────┬───────────────────────────────────────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+   ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐
+   │ monitor.py  │  │stations.py  │  │ confige.json    │
+   │             │  │             │  │                 │
+   │ Core Logic  │  │ Station     │  │ Configuration   │
+   │ • Async     │  │ Data Loader │  │ • Refresh rate  │
+   │   orchestr. │  │             │  │ • Alerts config │
+   │ • HTTP      │  │             │  │ • Notifications │
+   │   checks    │  │             │  │                 │
+   │ • State     │  │             │  │                 │
+   │   tracking  │  │             │  │                 │
+   │ • Logging   │  │             │  │                 │
+   └────┬────────┘  └─────────────┘  └─────────────────┘
+        │
+        ├──────────────────────────┬──────────────────────────┐
+        │                          │                          │
+        ▼                          ▼                          ▼
+   ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+   │instrument_      │    │ battery_monitor  │    │ Logs & Outputs   │
+   │monitor.py       │    │                  │    │                  │
+   │                 │    │ BatteryMonitor   │    │ Logs/logs.txt    │
+   │ get_weather_    │    │                  │    │ Outputs/*.csv    │
+   │ data()          │    │ 2-step RPC:      │    │                  │
+   │ • POST to RPC   │    │ 1) getUID()      │    │ Event log:       │
+   │ • Regex parse   │    │ 2) getVoltage()  │    │ • State changes  │
+   │ • Extract:      │    │                  │    │ • Failures       │
+   │   - Temp        │    │ SSL bypass:      │    │ • User actions   │
+   │   - Humidity    │    │ verify=False     │    │                  │
+   │   - Pressure    │    │                  │    │                  │
+   │   - Wind        │    │ Returns NaN      │    │                  │
+   │   - Precip      │    │ on error         │    │                  │
+   └──────────────────┘    └──────────────────┘    └──────────────────┘
+        │                          │
+        └──────────────┬───────────┘
+                       │
+                       ▼
+              37 Weather Stations
+              (10.x.x.x network)
+              [HTTP/HTTPS endpoints]
