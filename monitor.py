@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 import concurrent.futures
 import json
 import os
+from urllib.parse import urlsplit
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from contextlib import asynccontextmanager
@@ -19,7 +20,7 @@ from plyer import notification
 from inst_mon.instrument_monitor import get_weather_data
 from inst_mon.battery_monitor import BatteryMonitor
 from gbon_page.dashboard import render_dashboard_html
-from stations import save_station, stations as configured_stations
+from stations import get_station_metadata, save_station, stations as configured_stations
 
 
         
@@ -48,6 +49,7 @@ class ConfigUpdate(BaseModel):
 class StationUpdate(BaseModel):
     name: str
     url: str
+    metadata: Optional[Dict[str, str]] = None
 # Global state
 battery_monitor = BatteryMonitor()
 monitoring_task: Optional[asyncio.Task] = None
@@ -382,25 +384,43 @@ async def update_station_endpoint(station_name: str, station_update: StationUpda
         raise HTTPException(status_code=404, detail="Station not found")
     
     try:
-        save_station(station_name, station_update.name, station_update.url)
-    except (OSError, ValueError) as exc:
+        old_metadata = get_station_metadata(station_name)
+        metadata = station_update.metadata or old_metadata.copy()
+        metadata["Name"] = station_update.name
+        if station_update.metadata is None:
+            parsed_url = urlsplit(station_update.url)
+            if not parsed_url.scheme or not parsed_url.hostname or parsed_url.port is None:
+                raise ValueError("Station address must include a protocol, IP address, and port.")
+            metadata["Protocol"] = parsed_url.scheme
+            metadata["Main IP"] = parsed_url.hostname
+            metadata["PORT"] = str(parsed_url.port)
+        new_url = save_station(station_name, metadata)
+    except (OSError, ValueError, KeyError) as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
-    stations[station_idx] = (station_update.name, station_update.url)
+    stations[station_idx] = (station_update.name, new_url)
     
     # Update the global stations_status with the new URL
     if station_name in stations_status:
         stations_status[station_update.name] = stations_status.pop(station_name)
         stations_status[station_update.name]["name"] = station_update.name
-        stations_status[station_update.name]["url"] = station_update.url
+        stations_status[station_update.name]["url"] = new_url
     
-    log_it("logs", f"Server: Updated station '{station_name}' to name='{station_update.name}', url='{station_update.url}'")
+    changed_fields = ", ".join(
+        f"{field}: '{old_value}' -> '{metadata[field]}'"
+        for field, old_value in old_metadata.items()
+        if old_value != metadata[field]
+    )
+    log_it(
+        "logs",
+        f"Server: Updated station '{station_name}' to '{station_update.name}': {changed_fields}",
+    )
     
     return {
         "message": "Station updated",
         "station": {
             "name": station_update.name,
-            "url": station_update.url
+            "url": new_url
         }
     }
 

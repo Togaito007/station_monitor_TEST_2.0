@@ -1,4 +1,4 @@
-from qtpy.QtWidgets import QWidget, QListWidget, QListWidgetItem, QVBoxLayout, QLabel, QPushButton, QMessageBox, QDialog, QDialogButtonBox, QHBoxLayout, QMenu, QLineEdit, QAction, QTableWidget, QTableWidgetItem
+from qtpy.QtWidgets import QWidget, QListWidget, QListWidgetItem, QVBoxLayout, QLabel, QPushButton, QMessageBox, QDialog, QDialogButtonBox, QHBoxLayout, QMenu, QLineEdit, QAction, QTableWidget, QTableWidgetItem, QFormLayout
 from qtpy.QtGui import QIcon, QFont, QColor
 from qtpy.QtCore import Qt
 from qtpy import QtGui, QtCore
@@ -9,7 +9,7 @@ from datetime import datetime
 import httpx
 import sys
 import math
-from stations import save_station, station_codes
+from stations import STATION_FIELDS, get_station_metadata, save_station, station_codes
 def load_config():
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "confige.json")
     if os.path.exists(config_path):
@@ -615,46 +615,72 @@ class MonitorWindow(QWidget):
     def modify_station_dialog(self, item):
         idx = self.list_widget.row(item)
         station_name, station_url = self.stations[idx]
+        try:
+            metadata = get_station_metadata(station_name)
+        except (OSError, ValueError, KeyError) as exc:
+            QMessageBox.critical(self, "Unable to load station", str(exc))
+            return
 
         dialog = QDialog(self)
         dialog.setWindowTitle("Modify Station")
-        layout = QVBoxLayout(dialog)
+        form_layout = QFormLayout(dialog)
+        fields = {
+            field: QLineEdit(metadata[field])
+            for field in STATION_FIELDS
+        }
+        form_layout.addRow("Name:", fields["Name"])
+        form_layout.addRow("OACI code:", fields["OACI_code"])
+        form_layout.addRow("OMM code:", fields["OMM_code"])
 
-        name_label = QLabel("Station Name:")
-        name_edit = QLineEdit(station_name)
-        url_label = QLabel("Station Address:")
-        url_edit = QLineEdit(station_url)
+        ip_fields = QHBoxLayout()
+        ip_fields.addWidget(fields["Main IP"])
+        swap_button = QPushButton("↔")
+        swap_button.setToolTip("Swap main and secondary IP addresses")
+        swap_button.setAccessibleName("Swap main and secondary IP addresses")
+        swap_button.setFixedWidth(36)
+        ip_fields.addWidget(swap_button)
+        ip_fields.addWidget(fields["Secondary IP"])
 
-        layout.addWidget(name_label)
-        layout.addWidget(name_edit)
-        layout.addWidget(url_label)
-        layout.addWidget(url_edit)
+        def swap_station_ips():
+            main_ip = fields["Main IP"].text()
+            secondary_ip = fields["Secondary IP"].text()
+            fields["Main IP"].setText(secondary_ip)
+            fields["Secondary IP"].setText(main_ip)
+
+        swap_button.clicked.connect(swap_station_ips)
+        form_layout.addRow("Main / Secondary IP:", ip_fields)
+        form_layout.addRow("PORT:", fields["PORT"])
+        form_layout.addRow("Protocol:", fields["Protocol"])
 
         button_box = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
-        layout.addWidget(button_box)
+        form_layout.addRow(button_box)
 
         def on_accept():
-            new_name = name_edit.text()
-            new_url = url_edit.text()
-            changes = []
-            if new_name != station_name:
-                changes.append(f"name: '{station_name}' -> '{new_name}'")
-            if new_url != station_url:
-                changes.append(f"address: '{station_url}' -> '{new_url}'")
+            updated_metadata = {
+                field: fields[field].text().strip()
+                for field in STATION_FIELDS
+            }
+            changes = [
+                f"{field}: '{metadata[field]}' -> '{updated_metadata[field]}'"
+                for field in STATION_FIELDS
+                if metadata[field] != updated_metadata[field]
+            ]
             try:
-                save_station(station_name, new_name, new_url)
-            except (OSError, ValueError) as exc:
+                new_url = save_station(station_name, updated_metadata)
+            except (OSError, ValueError, KeyError) as exc:
                 QMessageBox.critical(self, "Unable to save station", str(exc))
                 return
 
             # Update in memory
+            new_name = updated_metadata["Name"]
             self.stations[idx] = (new_name, new_url)
             item.setText(new_name)
             # Notify server about station modification
             if changes:
                 station_update = {
                     "name": new_name,
-                    "url": new_url
+                    "url": new_url,
+                    "metadata": updated_metadata,
                 }
                 try:
                     response = self.http_client.put(f"{self.SERVER_URL}/stations/{station_name}", json=station_update)
@@ -662,9 +688,15 @@ class MonitorWindow(QWidget):
                     print(f"Server notified about station modification: {station_name} -> {new_name}")
                 except Exception as e:
                     print(f"Failed to notify server about station modification: {e}")
-                # Log the modification
-                log_msg = f"{datetime.now()} - Modified station {station_name}: " + ", ".join(changes) + "\n------LOG_END\n"
-                self.log_modification(log_msg)
+                try:
+                    log_msg = (
+                        f"{datetime.now()} - Modified station {station_name}:\n"
+                        + "\n".join(changes)
+                        + "\n------LOG_END\n"
+                    )
+                    self.log_modification(log_msg)
+                except OSError as exc:
+                    QMessageBox.critical(self, "Unable to write station log", str(exc))
             dialog.accept()
 
         button_box.accepted.connect(on_accept)
