@@ -19,6 +19,7 @@ from plyer import notification
 from inst_mon.instrument_monitor import get_weather_data
 from inst_mon.battery_monitor import BatteryMonitor
 from gbon_page.dashboard import render_dashboard_html
+from stations import save_station, stations as configured_stations
 
 
         
@@ -80,15 +81,7 @@ def save_config():
     with open('server_confige.json', 'w') as f:
         json.dump(config, f, indent=2)
 
-# Load stations
-def load_stations():
-    try:
-        with open('stations.json', 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
-
-stations = load_stations()
+stations = list(configured_stations)
 load_config()
 
 # Notification function
@@ -388,12 +381,12 @@ async def update_station_endpoint(station_name: str, station_update: StationUpda
     if station_idx is None:
         raise HTTPException(status_code=404, detail="Station not found")
     
-    # Update the station
+    try:
+        save_station(station_name, station_update.name, station_update.url)
+    except (OSError, ValueError) as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
     stations[station_idx] = (station_update.name, station_update.url)
-    
-    # Save updated stations to JSON
-    with open('stations.json', 'w') as f:
-        json.dump(stations, f, indent=2)
     
     # Update the global stations_status with the new URL
     if station_name in stations_status:
@@ -459,4 +452,3 @@ async def root_redirect():
 
 if __name__ == "__main__":
     uvicorn.run(app, host=config["server_ip"], port=config["server_port"])
-

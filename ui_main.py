@@ -9,6 +9,7 @@ from datetime import datetime
 import httpx
 import sys
 import math
+from stations import save_station, station_codes
 def load_config():
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "confige.json")
     if os.path.exists(config_path):
@@ -444,7 +445,7 @@ class MonitorWindow(QWidget):
     def show_station_logs(self, item):
         idx = self.list_widget.row(item)
         station_name, station_url = self.stations[idx]
-        icao = station_name.split()[-1]
+        icao = station_codes.get(station_name, station_name)
 
         # Fetch logs from server
         try:
@@ -640,11 +641,15 @@ class MonitorWindow(QWidget):
                 changes.append(f"name: '{station_name}' -> '{new_name}'")
             if new_url != station_url:
                 changes.append(f"address: '{station_url}' -> '{new_url}'")
+            try:
+                save_station(station_name, new_name, new_url)
+            except (OSError, ValueError) as exc:
+                QMessageBox.critical(self, "Unable to save station", str(exc))
+                return
+
             # Update in memory
             self.stations[idx] = (new_name, new_url)
             item.setText(new_name)
-            # Save to stations.json
-            self.save_stations_to_json()
             # Notify server about station modification
             if changes:
                 station_update = {
@@ -666,14 +671,6 @@ class MonitorWindow(QWidget):
         button_box.rejected.connect(dialog.reject)
 
         dialog.exec_()
-
-    def save_stations_to_json(self):
-        # Save self.stations to stations.json in the same directory as this script
-        json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stations.json")
-        # Convert tuples to lists for JSON compatibility
-        stations_list = [list(st) for st in self.stations]
-        with open(json_path, "w") as f:
-            json.dump(stations_list, f, indent=4)
 
     def log_modification(self, message):
         logs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Logs")

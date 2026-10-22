@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('stations.json', '.'), ('/home/newuser/.local/lib/python3.10/site-packages/PyQt5/Qt5/plugins/platforms', 'platforms')],
+    datas=[('STATS_full.json', '.'), ('/home/newuser/.local/lib/python3.10/site-packages/PyQt5/Qt5/plugins/platforms', 'platforms')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
