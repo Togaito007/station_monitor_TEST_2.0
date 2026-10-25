@@ -46,7 +46,7 @@ def get_weather_data(base_url):
     data = {}
 
     try:
-        response = requests.post(url, headers=headers, params=params, data=payload, verify=False)
+        response = requests.post(url, headers=headers, params=params, data=payload, verify=False, timeout=30)
         response.raise_for_status()  
 
         response_text = response.text
@@ -101,8 +101,8 @@ def get_weather_data(base_url):
 #            print(dt_object)  # Output: 2026-05-19 09:25:57+00:00
             data['ServerTime'] = dt_object
         else:
-        	print("no time")
-        	data['ServerTime'] = float('nan')
+            print("no time")
+            data['ServerTime'] = float('nan')
     except requests.exceptions.RequestException as e:
         print(f"Error making request: {e}")
         return None
@@ -114,6 +114,4 @@ def get_weather_data(base_url):
         if key in data and isinstance(data[key], float) and not (data[key] != data[key]):  
             data[key] = round(data[key], 2)
     return data
-
-
 

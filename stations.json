@@ -1,150 +1,150 @@
 [
-  [
-    "ADRAR DAUA",
-    "https://10.1.16.152:8443"
-  ],
-  [
-    "ANNABA DABB",
-    "http://10.23.16.151:8080"
-  ],
-  [
-    "BATNA DABT",
-    "https://10.5.16.151:8443"
-  ],
-  [
-    "BBM DATM",
-    "http://10.144.1.2:3392"
-  ],
-  [
-    "BECHAR DAOR",
-    "https://10.8.17.151:8443"
-  ],
-  [
-    "BEJAIA_AERO DAAE",
-    "https://10.6.16.152:8443"
-  ],
-  [
-    "BISKRA DAUB",
-    "https://10.20.0.152:8443"
-  ],
-  [
-    "BOU-SAADA DAAD",
-    "https://10.28.16.152:8443"
-  ],
-  [
-    "CHLEF DAOI",
-    "https://10.2.16.152:8443"
-  ],
-  [
-    "CONSTANTINE DABC",
-    "https://10.25.16.151:8443"
-  ],
-  [
-    "DJANET DAAJ",
-    "https://10.56.16.152:8443"
-  ],
-  [
-    "EL_BAYADH DAOY",
-    "https://10.32.0.151:8443"
-  ],
-  [
-    "EL_GOLEA DAUE",
-    "https://10.58.16.151:8443"
-  ],
-  [
-    "EL_OUED DAUO",
-    "https://10.39.16.151:8443"
-  ],
-  [
-    "GHARDAIA DAUG",
-    "https://10.47.16.151:8443"
-  ],
-  [
-    "HASSI_MESSAOUD DAUH",
-    "https://10.30.16.151:8443"
-  ],
-  [
-    "HASSIRMEL DAFH",
-    "https://10.3.16.151:8443"
-  ],
-  [
-    "ILLIZI DAAP",
-    "https://10.144.1.59:8443"
-  ],
-  [
-    "IN_AMENAS DAUZ",
-    "https://10.33.16.151:8443"
-  ],
-  [
-    "IN_GUEZZAM DATG",
-    "https://10.54.0.152:8443"
-  ],
-  [
-    "IN_SALAH DAUI",
-    "https://10.53.16.151:8443"
-  ],
-  [
-    "JIJEL_ACHOUAT DAAV",
-    "https://10.20.16.152:8443"
-  ],
-  [
-    "KRICHEBA DAEK",
-    "https://10.58.0.151:8443"
-  ],
-  [
-    "MASCARA_GHRISS DAOV",
-    "https://10.29.16.152:8443"
-  ],
-  [
-    "MECHERIA DAAY",
-    "https://10.45.16.151:8443"
-  ],
-  [
-    "ORAN_SENIA DAOO",
-    "https://10.31.16.152:8443"
-  ],
-  [
-    "OUARGLA DAUU",
-    "https://10.30.0.151:8443"
-  ],
-  [
-    "RHOURD-NOUSS DAEN",
-    "https://10.33.32.152:8443"
-  ],
-  [
-    "SETIF DAAS",
-    "https://10.19.16.151:8443"
-  ],
-  [
-    "TAMANRASSET DAAT",
-    "https://10.11.16.151:8443"
-  ],
-  [
-    "TEBESSA DABS",
-    "https://10.12.16.210:8443"
-  ],
-  [
-    "TELEMCEN DAON",
-    "https://10.13.16.151:8443"
-  ],
-  [
-    "TIARET DAOB",
-    "https://10.14.16.151:8443"
-  ],
-  [
-    "TIMIMOUN DAUT",
-    "https://10.1.0.152:8443"
-  ],
-  [
-    "TINDOUF DAOF",
-    "https://10.37.16.151:8443"
-  ],
-  [
-    "TINFOUYE DAEF",
-    "https://10.33.0.151:8443"
-  ],
-  [
-    "TOUGGOURT DAUK",
-    "https://10.55.16.151:8443"
-  ]
+    [
+        "ADRAR DAUA",
+        "https://10.1.16.152:8443"
+    ],
+    [
+        "ANNABA DABB",
+        "http://10.23.16.151:8080"
+    ],
+    [
+        "BATNA DABT",
+        "https://10.5.16.151:8443"
+    ],
+    [
+        "BBM DATM",
+        "http://10.144.1.2:3392"
+    ],
+    [
+        "BECHAR DAOR",
+        "https://10.8.17.151:8443"
+    ],
+    [
+        "BEJAIA_AERO DAAE",
+        "https://10.6.16.152:8443"
+    ],
+    [
+        "BISKRA DAUB",
+        "https://10.20.0.152:8443"
+    ],
+    [
+        "BOU-SAADA DAAD",
+        "https://10.28.16.152:8443"
+    ],
+    [
+        "CHLEF DAOI",
+        "https://10.2.16.152:8443"
+    ],
+    [
+        "CONSTANTINE DABC",
+        "https://10.25.16.151:8443"
+    ],
+    [
+        "DJANET DAAJ",
+        "https://10.56.16.152:8443"
+    ],
+    [
+        "EL_BAYADH DAOY",
+        "https://10.32.0.151:8443"
+    ],
+    [
+        "EL_GOLEA DAUE",
+        "https://10.58.16.151:8443"
+    ],
+    [
+        "EL_OUED DAUO",
+        "https://10.39.16.151:8443"
+    ],
+    [
+        "GHARDAIA DAUG",
+        "https://10.47.16.151:8443"
+    ],
+    [
+        "HASSI_MESSAOUD DAUH",
+        "https://10.30.16.151:8443"
+    ],
+    [
+        "HASSIRMEL DAFH",
+        "https://10.3.16.151:8443"
+    ],
+    [
+        "ILLIZI DAAP",
+        "https://10.144.1.59:8443"
+    ],
+    [
+        "IN_AMENAS DAUZ",
+        "https://10.33.16.151:8443"
+    ],
+    [
+        "IN_GUEZZAM DATG",
+        "https://10.54.0.152:8443"
+    ],
+    [
+        "IN_SALAH DAUI",
+        "https://10.53.16.151:8443"
+    ],
+    [
+        "JIJEL_ACHOUAT DAAV",
+        "https://10.20.16.152:8443"
+    ],
+    [
+        "KRICHEBA DAEK",
+        "https://10.58.0.151:8443"
+    ],
+    [
+        "MASCARA_GHRISS DAOV",
+        "https://10.29.16.152:8443"
+    ],
+    [
+        "MECHERIA DAAY",
+        "https://10.45.16.151:8443"
+    ],
+    [
+        "ORAN_SENIA DAOO",
+        "https://10.31.16.152:8443"
+    ],
+    [
+        "OUARGLA DAUU",
+        "https://10.30.0.151:8443"
+    ],
+    [
+        "RHOURD-NOUSS DAEN",
+        "https://10.33.32.152:8443"
+    ],
+    [
+        "SETIF DAAS",
+        "https://10.19.16.151:8443"
+    ],
+    [
+        "TAMANRASSET DAAT",
+        "https://10.11.16.151:8443"
+    ],
+    [
+        "TEBESSA DABS",
+        "https://10.12.16.210:8443"
+    ],
+    [
+        "TELEMCEN DAON",
+        "https://10.13.16.151:8443"
+    ],
+    [
+        "TIARET DAOB",
+        "https://10.14.16.151:8443"
+    ],
+    [
+        "TIMIMOUN DAUT",
+        "https://10.1.0.152:8443"
+    ],
+    [
+        "TINDOUF DAOF",
+        "https://10.37.16.151:8443"
+    ],
+    [
+        "TINFOUYE DAEF",
+        "https://10.33.0.151:8443"
+    ],
+    [
+        "TOUGGOURT DAUK",
+        "https://10.55.16.151:8443"
+    ]
 ]

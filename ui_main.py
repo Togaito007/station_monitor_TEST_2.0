@@ -9,7 +9,31 @@ from datetime import datetime
 import httpx
 import sys
 import math
+from urllib.parse import quote
 from stations import STATION_FIELDS, get_station_metadata, save_station, station_codes
+
+
+class StationDiagnosticsWorker(QtCore.QThread):
+    results_ready = QtCore.Signal(dict)
+    error_occurred = QtCore.Signal(str)
+
+    def __init__(self, station_name, server_url, parent=None):
+        super().__init__(parent)
+        self.station_name = station_name
+        self.server_url = server_url
+
+    def run(self):
+        try:
+            response = httpx.get(
+                f"{self.server_url}/stations/{quote(self.station_name, safe='')}/diagnostics",
+                timeout=900.0,
+            )
+            response.raise_for_status()
+            self.results_ready.emit(response.json()["results"])
+        except (httpx.HTTPError, KeyError, TypeError, ValueError) as exc:
+            self.error_occurred.emit(str(exc))
+
+
 def load_config():
     config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "confige.json")
     if os.path.exists(config_path):
@@ -92,6 +116,7 @@ class MonitorWindow(QWidget):
         # HTTP client for server communication
         self.http_client = httpx.Client(timeout=10.0)
         self.server_available = True
+        self._diagnostics_worker = None
 
         self.setWindowTitle("Station Monitor")
         self.setStyleSheet("""
@@ -435,12 +460,70 @@ class MonitorWindow(QWidget):
             menu = QMenu(self)
             action1 = menu.addAction("Modify station")
             action2 = menu.addAction("Logs")
-            action3 = menu.addAction("Option 3")
+            action3 = menu.addAction("Diagnostics")
             action = menu.exec_(self.list_widget.mapToGlobal(pos))
             if action == action1:
                 self.modify_station_dialog(item)
             elif action == action2:
                 self.show_station_logs(item)
+            elif action == action3:
+                self.show_station_diagnostics(item)
+
+    def show_station_diagnostics(self, item):
+        if self._diagnostics_worker is not None and self._diagnostics_worker.isRunning():
+            return
+
+        station_name = item.text()
+        try:
+            metadata = get_station_metadata(station_name)
+        except (OSError, ValueError, KeyError) as exc:
+            QMessageBox.critical(self, "Unable to load station", str(exc))
+            return
+
+        dialog = QDialog(self)
+        dialog.setWindowTitle(f"{station_name} Diagnostics")
+        dialog.setWindowFlag(Qt.WindowCloseButtonHint, False)
+        layout = QVBoxLayout(dialog)
+        result_labels = {}
+        for category, ip_field in (
+            ("Main IMS", "Main IP"),
+            ("Main server", "Main IP"),
+            ("Secondary IMS", "Secondary IP"),
+            ("Secondary server", "Secondary IP"),
+        ):
+            label = QLabel(f"{category} ({metadata[ip_field]}): Checking...")
+            result_labels[category] = label
+            layout.addWidget(label)
+
+        button_box = QDialogButtonBox(QDialogButtonBox.Close)
+        close_button = button_box.button(QDialogButtonBox.Close)
+        close_button.setEnabled(False)
+        button_box.rejected.connect(dialog.reject)
+        layout.addWidget(button_box)
+
+        worker = StationDiagnosticsWorker(station_name, self.SERVER_URL, self)
+        self._diagnostics_worker = worker
+
+        def show_results(results):
+            for category, result in results.items():
+                label = result_labels[category]
+                label.setText(f"{category} ({result['ip']}): {result['status']}")
+            close_button.setEnabled(True)
+
+        def show_error(message):
+            for label in result_labels.values():
+                label.setText(f"Error: {message}")
+            close_button.setEnabled(True)
+
+        def finish_worker():
+            if self._diagnostics_worker is worker:
+                self._diagnostics_worker = None
+
+        worker.results_ready.connect(show_results)
+        worker.error_occurred.connect(show_error)
+        worker.finished.connect(finish_worker)
+        worker.start()
+        dialog.exec_()
 
     def show_station_logs(self, item):
         idx = self.list_widget.row(item)

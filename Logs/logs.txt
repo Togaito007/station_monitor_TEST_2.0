@@ -52824,3 +52824,3988 @@ Station ILLIZI DAAP is down. URL: https://10.144.1.59:8443
 2026-10-22 14:39:36.041468
 Station ILLIZI DAAP is back up. URL: https://10.144.1.59:8443
 ------LOG_END
+2026-10-22 15:38:48.766429
+Station DJANET is down. URL: https://10.56.16.151:8443
+------LOG_END
+2026-10-22 15:38:48.809330
+Station ILLIZI is down. URL: https://10.144.1.59:8543
+------LOG_END
+2026-10-22 16:02:25.765735
+Station DJANET is down. URL: https://10.56.16.151:8443
+------LOG_END
+2026-10-22 16:02:25.765891
+Station ILLIZI is down. URL: https://10.144.1.59:8543
+------LOG_END
+2026-10-22 16:03:43.036083
+Server: Updated station 'DJANET' to 'DJANET': 
+------LOG_END
+2026-10-22 16:03:43.037414 - Modified station DJANET:
+Main IP: '10.56.16.151' -> '10.56.16.152'
+Secondary IP: '10.56.16.152' -> '10.56.16.151'
+------LOG_END
+2026-10-22 16:03:53.816267
+Server: Updated station 'ILLIZI' to 'ILLIZI': 
+------LOG_END
+2026-10-22 16:03:53.817726 - Modified station ILLIZI:
+PORT: '8543' -> '8443'
+------LOG_END
+2026-10-22 16:04:16.766373
+Station DJANET is back up. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-22 16:05:24.537076
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-22 16:47:43.781353
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 16:53:03.767038
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-22 16:54:39.766459
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-22 16:59:29.151880
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 17:01:56.766866
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 17:06:28.012118
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 17:15:41.784508
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 17:17:15.661957
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 17:56:02.660330
+Pression is down at ORAN_SENIA.
+------LOG_END
+2026-10-22 17:57:02.260066
+Pression is back-up at ORAN_SENIA.
+------LOG_END
+2026-10-22 18:00:04.298575
+Station BISKRA is down. URL: https://10.20.0.152:8443
+------LOG_END
+2026-10-22 18:03:48.020755
+Station BISKRA is back up. URL: https://10.20.0.152:8443
+------LOG_END
+2026-10-22 18:12:04.944797
+Humidité is down at EL_GOLEA.
+------LOG_END
+2026-10-22 18:12:04.945710
+Pression is down at EL_GOLEA.
+------LOG_END
+2026-10-22 18:12:04.946269
+Temperature moyenne is down at EL_GOLEA.
+------LOG_END
+2026-10-22 18:21:13.239957
+Vent(F m/s) is down at EL_GOLEA.
+------LOG_END
+2026-10-22 18:25:34.042169
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-22 18:27:01.303324
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-22 18:28:45.766244
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-22 18:28:45.766879
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 18:30:22.581954
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-22 18:30:22.582428
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 18:36:31.074087
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-22 18:37:38.633092
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-22 18:38:58.644265
+Vent(F m/s) is back-up at EL_GOLEA.
+------LOG_END
+2026-10-22 18:38:58.644533
+Humidité is back-up at EL_GOLEA.
+------LOG_END
+2026-10-22 18:38:58.644715
+Pression is back-up at EL_GOLEA.
+------LOG_END
+2026-10-22 18:38:58.644860
+Temperature moyenne is back-up at EL_GOLEA.
+------LOG_END
+2026-10-22 19:54:50.476257
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-22 19:56:13.785042
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-22 20:19:03.766877
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-22 20:50:48.766534
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 20:52:34.766588
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 20:54:35.766995
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 20:56:20.768520
+Station DJANET is down. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-22 20:56:20.769267
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 20:58:28.765655
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:00:22.769177
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:02:15.766939
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:04:02.767578
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:05:46.765933
+Station DJANET is back up. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-22 21:05:46.766655
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:07:26.766632
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:08:58.767076
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:10:50.767171
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:12:32.767065
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:14:16.766935
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:16:08.766867
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:17:51.767036
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:19:40.766455
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:21:36.766542
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:23:16.766659
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:24:58.766616
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:26:36.766725
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:28:09.766482
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:29:58.767318
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:31:46.766676
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:33:27.766369
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:35:11.766852
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:36:50.767095
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:38:30.767204
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:40:10.767029
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:42:04.766482
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:43:52.766542
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:45:38.767018
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:47:25.766450
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:49:07.766785
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:50:51.766930
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:52:44.766506
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:54:29.769327
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:56:18.766673
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:58:03.767255
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 21:59:41.769721
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:01:22.767128
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:03:05.767055
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:04:58.766502
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:06:44.767418
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:08:31.767062
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:10:12.767132
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:11:52.766394
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:13:33.766686
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:15:15.767113
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:16:54.767008
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:18:45.766923
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:20:34.767293
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:22:12.766428
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:23:54.767186
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:25:59.766918
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:27:37.766444
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:29:18.768108
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:31:09.766468
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:32:55.766517
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:34:41.765567
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:36:30.766359
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:38:13.767364
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:39:48.766540
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:41:36.766954
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:43:13.766805
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:45:00.767189
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:46:43.766492
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:48:21.765435
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:50:18.767092
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 22:50:18.767361
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:52:03.766797
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-22 22:52:03.767176
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:53:54.768727
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:55:34.767060
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:57:28.766854
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 22:59:23.049633
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:01:12.767288
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:03:03.766926
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:04:48.766507
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:06:35.767277
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:08:20.766445
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:09:55.766664
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:11:50.545578
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:13:32.767295
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:15:12.767193
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:16:47.766831
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:18:25.766788
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:20:10.767310
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:21:48.767078
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:23:32.767374
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:25:15.766675
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:26:55.767256
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:29:08.766848
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:31:02.767008
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:32:42.766464
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:34:31.766541
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:36:39.766612
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:38:20.766771
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:40:00.766909
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:41:39.767147
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:43:17.769469
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:45:13.767347
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:47:01.766246
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:48:42.766907
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:50:19.766611
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:52:08.767188
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:53:47.769254
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:55:31.769716
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:57:07.767154
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-22 23:58:44.767281
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:00:31.765816
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:02:17.767301
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:04:01.766884
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:05:43.769533
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:07:30.766751
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:09:16.767375
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:10:54.766794
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:12:39.767077
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:14:26.766865
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:16:12.766803
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:17:49.767399
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:19:25.766989
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:21:16.768926
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:22:51.767278
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:24:35.766449
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:26:26.766181
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 00:26:26.766737
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 00:26:26.767345
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:28:09.765861
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 00:28:09.766314
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 00:28:09.766805
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:29:53.767359
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:31:36.767236
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:33:30.766523
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:35:15.766610
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:36:53.766715
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:38:38.767041
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:40:20.766538
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:42:09.766805
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:43:53.767233
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:45:37.766709
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:47:14.769366
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:48:56.769887
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:50:39.769817
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:52:21.766432
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:54:09.766544
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:56:04.769775
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:57:52.766733
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 00:59:39.767041
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:01:27.767080
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:03:14.766603
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:04:57.766355
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:06:43.766443
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:08:30.767230
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:10:11.767114
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:11:56.766670
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:13:41.766549
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:15:19.767360
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:17:08.766863
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:18:48.767344
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:20:27.766593
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 01:20:27.766938
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:22:10.766330
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 01:22:10.766694
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:23:48.767688
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:25:39.766462
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:27:23.767097
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:29:09.767042
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:30:53.766282
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:32:41.766676
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:34:16.767840
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:36:00.766967
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:37:42.766478
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 01:37:42.767083
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:39:22.766787
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 01:39:22.767413
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:40:57.766259
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:42:39.770023
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:44:25.766876
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:46:09.766706
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:47:47.767050
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:49:27.767319
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:51:11.766676
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:52:46.766979
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:54:24.767126
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:55:55.766858
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:57:28.767046
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 01:59:10.766647
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:00:59.767203
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:02:45.767211
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:04:22.767348
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:06:08.767000
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:07:58.767021
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:09:34.766744
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:11:21.766441
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:13:02.767169
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:14:43.766756
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:16:27.766856
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:18:07.766649
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:19:52.766565
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:21:37.766818
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:23:14.767144
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:24:59.766839
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:26:48.766861
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:28:29.767331
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:30:13.769665
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:32:02.766961
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:33:46.766555
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:35:31.767006
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:37:17.766638
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:38:59.766651
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:40:44.766354
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:42:27.766664
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:44:14.766569
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:46:04.766091
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:47:43.766515
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:49:28.766977
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:51:06.767354
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:52:52.767024
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:54:29.766569
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:56:13.766577
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:57:50.766971
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 02:59:25.766796
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:01:09.767211
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:02:55.767142
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:04:37.769358
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:06:22.766642
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:08:04.767264
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:09:41.766266
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:11:27.767196
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:13:09.766269
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:14:46.767288
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:16:25.766422
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:18:02.766483
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:19:43.767188
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:21:28.766706
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:23:11.765858
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:24:50.767102
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:26:37.766987
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:28:13.767184
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:30:02.766959
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:31:46.766931
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:33:23.766563
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:35:01.766357
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:36:42.766778
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:38:28.767010
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:40:08.770040
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:41:47.766555
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:43:31.767070
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:45:07.766389
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:46:53.766404
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:46:53.766686
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:46:53.766866
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:46:53.767627
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:48:29.769717
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 03:48:29.769949
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 03:48:29.770020
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 03:48:29.770331
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:50:07.767270
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:51:50.766914
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:53:26.766649
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:55:04.767200
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:56:48.766554
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 03:58:33.766124
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:58:33.766401
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:58:33.766599
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-23 03:58:33.767361
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:00:30.766317
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 04:00:30.766591
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 04:00:30.766784
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 04:00:30.767548
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:02:11.766879
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:03:50.767224
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:05:36.767291
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:07:23.766573
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:09:02.767005
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:10:45.766248
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:12:30.766005
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:14:12.766406
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:15:57.766885
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:17:38.766660
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:19:21.765542
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:21:07.766461
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:22:50.766826
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:24:33.766458
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:26:27.766517
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:28:12.767325
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:29:55.766311
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:31:32.766207
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:33:10.766949
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:34:52.769363
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:36:40.766487
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:38:24.766573
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:40:04.766726
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:41:46.766410
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:43:48.766973
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:45:24.766678
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:47:09.766781
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:48:54.766937
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:50:49.766662
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:52:54.766793
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:54:35.766989
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:56:06.767048
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:57:44.766745
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 04:59:31.766833
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:01:16.766863
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:02:56.766965
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:04:54.766611
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:06:39.766702
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:08:26.766570
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:10:11.765531
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:12:00.767177
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:13:43.766987
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:15:28.766679
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:17:19.767200
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:19:01.767243
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:20:49.766553
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:22:40.767002
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:24:35.767094
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:26:19.767294
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:28:05.766439
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:29:42.766426
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-23 05:29:42.766698
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-23 05:29:42.766877
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-23 05:29:42.767639
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:31:18.766160
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 05:31:18.766363
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 05:31:18.766495
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 05:31:18.767028
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:33:02.766265
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:34:51.766752
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:36:37.766785
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:38:14.766891
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:40:14.766485
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:41:59.766590
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:43:38.766448
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:45:26.766643
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:47:14.767186
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:49:18.767362
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:51:03.767148
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:52:46.768406
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:54:34.766623
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:56:12.767297
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:58:00.766979
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 05:59:45.766408
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:01:29.766348
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:03:09.767137
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:04:48.767048
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:06:32.767009
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:08:12.766592
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:09:45.766014
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:11:25.767321
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:13:10.767101
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:14:47.769745
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:16:35.766519
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:18:20.766878
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:20:06.767229
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:21:52.766758
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:23:35.766737
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:25:13.766744
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:27:16.767357
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:28:57.767279
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:30:38.769579
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:32:25.766222
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:34:12.766480
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:36:00.767182
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:37:48.767030
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:39:32.766444
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:41:17.766696
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:43:02.766998
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:44:48.769276
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:46:27.766626
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:48:03.767330
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:49:47.766459
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:51:32.766311
+Station EL_BAYADH is down. URL: https://10.32.0.151:8443
+------LOG_END
+2026-10-23 06:51:32.767150
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:53:13.769604
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:54:50.769485
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:56:26.766575
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:58:18.766543
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 06:59:50.767426
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:01:24.766602
+Station EL_BAYADH is back up. URL: https://10.32.0.151:8443
+------LOG_END
+2026-10-23 07:01:24.767387
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:02:56.768851
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:04:37.767035
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:06:15.767353
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:07:50.767113
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:09:24.766672
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:10:56.766865
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:12:35.767242
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:14:07.767386
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:15:39.767269
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:17:29.766645
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:19:15.767089
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:20:55.767038
+Station IN_SALAH is down. URL: https://10.53.16.151:8443
+------LOG_END
+2026-10-23 07:20:55.767687
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:22:34.766050
+Station IN_SALAH is back up. URL: https://10.53.16.151:8443
+------LOG_END
+2026-10-23 07:22:34.766395
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:24:19.768984
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:26:01.765876
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:27:45.767119
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:29:37.766667
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:31:22.766499
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:32:58.767000
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 07:32:58.767548
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 07:32:58.768140
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:34:30.766402
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 07:34:30.766796
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 07:34:30.767217
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:36:05.767380
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:37:46.769643
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:39:29.767245
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:41:08.769585
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 07:41:08.770138
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 07:41:08.770751
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:42:56.765917
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 07:42:56.766365
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 07:42:56.766866
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:44:41.767194
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:46:31.766128
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:48:02.767232
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:49:33.767162
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:51:13.766463
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:52:45.766826
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:54:24.766458
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:55:59.766968
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:57:41.765877
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 07:59:25.766719
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:01:09.766182
+Station AIN_GUEZZAM is down. URL: https://10.54.0.152:8443
+------LOG_END
+2026-10-23 08:01:09.767178
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:03:08.766194
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 08:03:08.766744
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 08:03:08.767078
+Station OUARGLA is down. URL: https://10.30.0.151:8443
+------LOG_END
+2026-10-23 08:03:08.767529
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:05:08.766585
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 08:05:08.767170
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 08:05:08.767529
+Station OUARGLA is back up. URL: https://10.30.0.151:8443
+------LOG_END
+2026-10-23 08:05:08.767997
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:07:01.766161
+Station AIN_GUEZZAM is back up. URL: https://10.54.0.152:8443
+------LOG_END
+2026-10-23 08:07:01.767250
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:08:47.767038
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:10:35.766828
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:12:19.766837
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:14:01.765701
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:15:41.766396
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:17:18.766460
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:18:59.766973
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:20:39.767147
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:22:29.953075
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:24:22.767080
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:26:07.766659
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:27:59.766779
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:29:51.765459
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:31:29.766508
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:33:07.766316
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:34:50.766350
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 08:34:50.767076
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:36:33.766935
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 08:36:33.767654
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:38:20.766689
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:40:07.766853
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:41:46.766587
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:43:23.766578
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:45:09.767014
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:46:51.767041
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:48:36.769541
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:50:14.766121
+Station BEJAIA_AERO is down. URL: https://10.6.16.152:8443
+------LOG_END
+2026-10-23 08:50:14.767018
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:52:12.765968
+Station BEJAIA_AERO is back up. URL: https://10.6.16.152:8443
+------LOG_END
+2026-10-23 08:52:12.766885
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:53:56.767596
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:55:45.767201
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:57:26.766714
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 08:59:08.766925
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:00:56.766520
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:02:37.766520
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:04:24.766645
+Station BEJAIA_AERO is down. URL: https://10.6.16.152:8443
+------LOG_END
+2026-10-23 09:04:24.767257
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:06:11.766632
+Station BEJAIA_AERO is back up. URL: https://10.6.16.152:8443
+------LOG_END
+2026-10-23 09:06:11.767575
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:07:48.767369
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:09:38.766682
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:11:22.766910
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:13:08.766614
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:14:45.766908
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:16:33.766583
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:18:17.766922
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:19:57.766660
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:21:41.766890
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:23:31.766505
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:25:34.767261
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:27:21.767203
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:29:09.767279
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:30:49.766736
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:32:27.766880
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:34:09.766972
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:36:15.769281
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:38:03.767099
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:39:53.766359
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:41:43.766350
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:43:29.766553
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:45:11.766604
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:46:59.766861
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:48:38.766927
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:50:23.766429
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:52:00.766477
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:53:43.766996
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:55:30.923625
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:57:02.766456
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 09:58:48.769530
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:00:19.766789
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:01:52.766762
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:03:25.766551
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:05:18.770114
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:06:56.766459
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:08:35.766920
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:10:14.766844
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:12:03.767057
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:13:46.767166
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:15:32.767289
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:17:08.766483
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:18:59.766453
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:20:37.766942
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:22:19.766862
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:23:59.766724
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:25:48.766882
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:27:28.770103
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:29:17.769645
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:30:59.769863
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:32:52.766195
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-23 10:32:52.766452
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-23 10:32:52.766613
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-23 10:32:52.767308
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:34:35.766602
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 10:34:35.766887
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 10:34:35.767087
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 10:34:35.767878
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:36:22.766611
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:38:04.765964
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 10:38:04.766966
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:39:52.766058
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 10:39:52.767008
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:41:33.767259
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:43:22.766510
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:44:59.767041
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:46:44.767429
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:48:34.767146
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:50:15.766520
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:51:58.766545
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:53:33.766927
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:55:07.766222
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:56:44.766768
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:58:19.766351
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 10:59:51.767066
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:01:29.766833
+Station DJANET is down. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-23 11:01:29.767646
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:03:18.765852
+Station DJANET is back up. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-23 11:03:18.766145
+Humidité is down at DJANET.
+------LOG_END
+2026-10-23 11:03:18.766323
+Pression is down at DJANET.
+------LOG_END
+2026-10-23 11:03:18.766470
+Temperature moyenne is down at DJANET.
+------LOG_END
+2026-10-23 11:03:18.767115
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:04:55.766838
+Humidité is back-up at DJANET.
+------LOG_END
+2026-10-23 11:04:55.767091
+Pression is back-up at DJANET.
+------LOG_END
+2026-10-23 11:04:55.767267
+Temperature moyenne is back-up at DJANET.
+------LOG_END
+2026-10-23 11:04:55.767908
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:06:43.766415
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:08:23.766570
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:10:08.766901
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:11:48.766580
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:13:35.766894
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:15:18.766541
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:16:53.766713
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:18:43.766783
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:20:36.766790
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:22:36.766831
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:24:41.766661
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:26:34.766647
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:28:24.767332
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:30:11.766652
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:32:01.767161
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:33:52.767048
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:35:44.766972
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:37:18.766278
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:39:08.766880
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:41:00.766847
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:42:38.766491
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:44:16.767030
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:45:52.767098
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:47:39.766331
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:49:31.765998
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:51:19.766591
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:53:00.766496
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:54:40.767127
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:56:12.769351
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:57:46.766826
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 11:59:19.767074
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:00:54.766480
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:02:32.766365
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:04:05.767143
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:05:47.767515
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 12:05:47.767855
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:07:36.766975
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:09:38.766461
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 12:09:38.766843
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:11:14.767177
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:12:59.766911
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:14:44.766911
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:16:26.767422
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:18:17.766936
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:20:07.766781
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:21:49.767061
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:23:34.766563
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:25:18.766903
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:27:02.766440
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:28:49.767376
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:30:29.766475
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:32:21.765825
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:34:04.767034
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:36:13.766477
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:38:06.767051
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:39:44.766349
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:41:29.766584
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:43:06.766837
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:44:49.767251
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:46:31.766295
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:48:06.766630
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:49:54.766414
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:51:28.767070
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:53:05.766321
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:54:36.767047
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:56:18.766560
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:58:02.767090
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 12:59:37.767142
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:01:13.767378
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:02:51.766773
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:04:37.766774
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:06:10.766654
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:07:42.766971
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:09:13.769849
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:10:45.766192
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:12:19.766499
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:13:57.767248
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:15:48.766535
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:17:33.766564
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:19:10.766509
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:20:55.766969
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:22:37.767163
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:24:23.766921
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:26:02.766530
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:27:43.767203
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:29:26.768938
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:31:06.767250
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:32:42.767022
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:34:36.767190
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:36:18.767334
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:37:59.769772
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:39:41.766057
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:41:20.767180
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:43:09.766724
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:44:48.766785
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:46:25.768772
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:48:16.767037
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:50:00.767216
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:51:42.766916
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:53:20.767423
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:54:57.767332
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:56:31.767196
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:58:03.766923
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 13:59:39.766445
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:01:16.766964
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:02:58.766291
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:04:33.768552
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:06:05.769602
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:07:38.766883
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:09:11.767086
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:10:56.766408
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:12:48.766733
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 14:12:48.767299
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 14:12:48.767932
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:14:24.765877
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 14:14:24.766448
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 14:14:24.767061
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:16:11.766018
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:17:50.766516
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:19:34.767078
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:21:14.766460
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:22:58.767016
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:24:46.766263
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:26:29.766843
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:28:20.766797
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:30:09.767376
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:31:48.766629
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:33:28.766905
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:35:19.767053
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:36:58.766594
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:38:42.767358
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:40:21.766957
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:42:08.769340
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:43:56.766590
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:45:35.766395
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:47:19.767369
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:49:04.768032
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:50:43.766581
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 14:50:43.767126
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 14:50:43.767729
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:52:31.766620
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 14:52:31.767162
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 14:52:31.767743
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:54:02.767203
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:55:34.766588
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:57:06.767192
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 14:58:38.766810
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:00:13.766796
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:01:49.766670
+Station BISKRA is down. URL: https://10.20.0.152:8443
+------LOG_END
+2026-10-23 15:01:49.767179
+Humidité is down at KRICHEBA.
+------LOG_END
+2026-10-23 15:01:49.767363
+Pression is down at KRICHEBA.
+------LOG_END
+2026-10-23 15:01:49.767509
+Temperature moyenne is down at KRICHEBA.
+------LOG_END
+2026-10-23 15:01:49.767980
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:03:37.766029
+Station BISKRA is back up. URL: https://10.20.0.152:8443
+------LOG_END
+2026-10-23 15:03:37.766589
+Humidité is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 15:03:37.766795
+Pression is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 15:03:37.766961
+Temperature moyenne is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 15:03:37.767472
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:05:09.766489
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:06:56.766902
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:08:30.766933
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:10:16.768863
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:11:56.766712
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:13:40.766756
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:15:27.766493
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:17:29.766318
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 15:17:29.766877
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 15:17:29.767465
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:19:14.766413
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 15:19:14.766918
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 15:19:14.767480
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:20:55.768819
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:22:44.767152
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:24:30.767421
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:26:17.766959
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:28:11.766078
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:30:17.766403
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:32:19.769805
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:33:59.766606
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:35:51.765974
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:38:02.766445
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:39:39.766505
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:41:18.766526
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:43:03.765673
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:45:04.766476
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:46:52.513588
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:48:38.767232
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:50:22.767298
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:52:14.767102
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:54:02.766944
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:55:44.767235
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:57:30.766656
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 15:59:08.767268
+Station TIMIMOUN is down. URL: https://10.1.0.152:8443
+------LOG_END
+2026-10-23 15:59:08.767712
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:00:51.766813
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:02:35.766756
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:04:23.766663
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:06:09.766312
+Station TIMIMOUN is back up. URL: https://10.1.0.152:8443
+------LOG_END
+2026-10-23 16:06:09.766784
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:07:51.767381
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:09:32.766401
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:11:17.766753
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:13:01.766891
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:14:39.766896
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:16:19.767210
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:18:05.767250
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:19:46.766269
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:21:21.765775
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:23:04.767253
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:25:00.767333
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:26:42.766535
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:28:34.766263
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:30:24.768323
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:32:14.767117
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:33:56.766724
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:35:43.766644
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:37:24.766577
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:39:10.766654
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:40:58.766766
+Station JIJEL_ACHOUAT has been down for 30 minutes
+------LOG_END
+2026-10-23 16:42:39.686515
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-23 16:56:10.472762
+Humidité is down at EL_GOLEA.
+------LOG_END
+2026-10-23 16:56:10.473007
+Pression is down at EL_GOLEA.
+------LOG_END
+2026-10-23 16:56:10.473200
+Temperature moyenne is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:05:09.752659
+Vent(F m/s) is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:11:02.212056
+Station EL_GOLEA is down. URL: https://10.58.16.151:8443
+------LOG_END
+2026-10-23 17:13:26.030989
+Station EL_GOLEA is back up. URL: https://10.58.16.151:8443
+------LOG_END
+2026-10-23 17:13:26.031589
+Temperature moyenne is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:13:26.031946
+Humidité is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:13:26.032281
+Pression is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:13:26.032630
+Vent(F m/s) is down at EL_GOLEA.
+------LOG_END
+2026-10-23 17:44:19.217755
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:44:19.217918
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:44:19.218037
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:44:19.218142
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:45:19.333102
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:45:19.333801
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:45:19.334212
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:45:19.334604
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:46:34.532415
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:46:34.532727
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:46:34.532935
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:46:34.533116
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:47:40.986120
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:47:40.986284
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:47:40.986436
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:47:40.986572
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:49:01.774958
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:49:01.775295
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:49:01.775538
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:49:01.775742
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:50:22.883213
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-23 17:50:22.883997
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-23 17:50:22.884655
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-23 17:50:22.885882
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:50:22.886537
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:50:22.887175
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:50:22.887790
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:51:44.302653
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 17:51:44.302851
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 17:51:44.302978
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-23 17:51:44.303573
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:51:44.303745
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:51:44.303907
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:51:44.304049
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:52:53.243597
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:52:53.243865
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:52:53.244060
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:52:53.244235
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:54:00.988200
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:54:00.989252
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:54:00.989523
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:54:00.989753
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:55:19.595497
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:55:19.595811
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:55:19.596049
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:55:19.596263
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:56:17.807145
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:56:17.807512
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:56:17.807794
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:56:17.808059
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:57:32.966640
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:57:32.966913
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:57:32.967146
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:57:32.967317
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:58:37.540459
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:58:37.540673
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:58:37.540834
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:58:37.540971
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:59:38.149826
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:59:38.150162
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:59:38.150411
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 17:59:38.150617
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:00:54.805816
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:00:54.806115
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:00:54.806340
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:00:54.806543
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:02:22.895830
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:02:22.896096
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:02:22.896298
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:02:22.896508
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:03:41.666683
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:03:41.667243
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:03:41.667675
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:03:41.668069
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:04:55.930762
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:04:55.930989
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:04:55.931603
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:04:55.931869
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:06:15.207122
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:06:15.207420
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:06:15.207663
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:06:15.207868
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:07:20.106631
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:07:20.107421
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:07:20.108079
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:07:20.108763
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:08:20.106774
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:08:20.107360
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:08:20.107743
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:08:20.108103
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:09:32.650294
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:09:32.651244
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:09:32.651493
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:09:32.651703
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:10:36.127085
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:10:36.127560
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:10:36.127846
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:10:36.127943
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:11:55.015338
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:11:55.015642
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:11:55.015864
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:11:55.015993
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:12:56.944776
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:12:56.944864
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:12:56.944920
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:12:56.944975
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:14:18.218891
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:14:18.219199
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:14:18.219439
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:14:18.219643
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:15:34.969774
+Humidité is down at KRICHEBA.
+------LOG_END
+2026-10-23 18:15:34.970500
+Pression is down at KRICHEBA.
+------LOG_END
+2026-10-23 18:15:34.970909
+Temperature moyenne is down at KRICHEBA.
+------LOG_END
+2026-10-23 18:15:34.971560
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:15:34.971994
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:15:34.972414
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:15:34.972849
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:16:54.565983
+Pression is down at BATNA.
+------LOG_END
+2026-10-23 18:16:54.566286
+Humidité is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 18:16:54.566381
+Pression is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 18:16:54.566455
+Temperature moyenne is back-up at KRICHEBA.
+------LOG_END
+2026-10-23 18:16:54.566693
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:16:54.566799
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:16:54.566891
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:16:54.567063
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:18:20.084503
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:18:20.084750
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:18:20.084942
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:18:20.085105
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:19:21.644624
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:19:21.645807
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:19:21.646428
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:19:21.646725
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:20:33.349746
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:20:33.350458
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:20:33.351043
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:20:33.351597
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:21:46.543296
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:21:46.543608
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:21:46.543842
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:21:46.544043
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:22:55.530518
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:22:55.530738
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:22:55.530912
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:22:55.531059
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:24:07.896498
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:24:07.896776
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:24:07.896991
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:24:07.897173
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:25:10.093736
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:25:10.094001
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:25:10.094218
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:25:10.094395
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:26:23.011642
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:26:23.012417
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:26:23.012899
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:26:23.013320
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:27:37.270347
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:27:37.270602
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:27:37.270796
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:27:37.270960
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:28:42.683024
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:28:42.683996
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:28:42.684257
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:28:42.684509
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:29:54.764850
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:29:54.765877
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:29:54.766166
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:29:54.766399
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:31:14.582387
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:31:14.582580
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:31:14.582733
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:31:14.582857
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:32:16.972642
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:32:16.972838
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:32:16.973009
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:32:16.973136
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:33:42.324513
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:33:42.324833
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:33:42.325081
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:33:42.325290
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:35:10.084011
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:35:10.084203
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:35:10.084356
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:35:10.084508
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:36:24.495943
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:36:24.496259
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:36:24.496402
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:36:24.496498
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:37:24.751382
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:37:24.751968
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:37:24.752370
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:37:24.752752
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:38:25.171042
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:38:25.171723
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:38:25.172166
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:38:25.172615
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:39:39.140777
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:39:39.141218
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:39:39.141485
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:39:39.141737
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:40:37.879830
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:40:37.880083
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:40:37.880273
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:40:37.880455
+EL_GOLEA's instrument 'Vent(F m/s)' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:41:37.432400
+Vent(F m/s) is back-up at EL_GOLEA.
+------LOG_END
+2026-10-23 18:41:37.433201
+EL_GOLEA's instrument 'Temperature moyenne' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:41:37.433447
+EL_GOLEA's instrument 'Humidité' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:41:37.433686
+EL_GOLEA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:42:52.269605
+Humidité is back-up at EL_GOLEA.
+------LOG_END
+2026-10-23 18:42:52.269782
+Pression is back-up at EL_GOLEA.
+------LOG_END
+2026-10-23 18:42:52.269896
+Temperature moyenne is back-up at EL_GOLEA.
+------LOG_END
+2026-10-23 18:48:00.678241
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:49:06.231894
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:50:14.572125
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:51:12.635471
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:52:14.194991
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:53:15.608699
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:54:27.383514
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:55:59.606717
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:56:58.102887
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:58:14.744822
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 18:59:16.005690
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:00:34.404895
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:01:35.567001
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:02:46.529613
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:03:54.930467
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:04:51.659777
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:06:07.205735
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:07:06.145474
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:08:01.717419
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:09:16.425875
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:10:31.377709
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:11:31.815504
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:12:48.100549
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:13:59.889280
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:15:03.029054
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:16:15.451490
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:17:17.100003
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:18:19.948657
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:19:31.404151
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:20:34.020766
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:22:05.535837
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:23:32.112059
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:24:56.330091
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:26:27.690536
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:27:39.764546
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:28:41.740795
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:29:53.471066
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:31:23.699684
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:32:29.124623
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:33:47.697409
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:34:54.403967
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:36:03.515719
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:37:07.491737
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:38:25.062784
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:39:33.200219
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:40:50.055690
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:42:08.332586
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:43:06.863978
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:44:35.766425
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 19:44:35.766970
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 19:44:35.767601
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:45:39.470601
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 19:45:39.471094
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-23 19:45:39.471656
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:46:52.188281
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:48:00.958693
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:49:18.014255
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:50:39.340718
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:51:45.409155
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:53:04.745834
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:54:22.490960
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:55:54.766643
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 19:55:54.766998
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:57:03.071922
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 19:57:03.072231
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:58:34.509674
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 19:59:43.560149
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 19:59:43.561142
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:00:54.745384
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-23 20:00:54.747023
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:02:15.725860
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:03:34.815106
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:04:49.098473
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:06:02.664802
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:07:14.885020
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:08:33.086742
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:09:40.549099
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:11:08.817300
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:12:21.914868
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:13:22.266080
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:14:37.779135
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:15:49.296782
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:17:06.033311
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:18:12.718063
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:19:19.273529
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:20:21.744584
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:21:53.667575
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:22:54.473119
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:24:24.986780
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:25:35.642744
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:26:56.303675
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:28:26.857449
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:29:41.422837
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:30:47.837879
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:31:47.912850
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:33:17.292260
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:34:25.701432
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:35:47.842886
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:37:01.015826
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:38:28.768591
+Station HASSI_MESSAOUD is down. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-23 20:38:28.768945
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:40:06.331844
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:41:20.181463
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:42:34.819813
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:43:44.150782
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:44:43.889999
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:46:16.651013
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:47:23.773103
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:48:30.164582
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:49:39.420763
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:51:21.766853
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:52:40.394453
+Station HASSI_MESSAOUD is back up. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-23 20:52:40.395914
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:53:57.980607
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:55:16.085578
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:56:23.929187
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:57:44.722158
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:58:47.290322
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 20:59:53.803545
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:01:36.769681
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 21:01:36.770051
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:02:43.383989
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 21:02:43.384195
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:04:00.866303
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:05:13.904495
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:06:12.896776
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:07:44.840124
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:08:50.168105
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:09:57.968954
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:11:13.059649
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:12:34.033017
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:13:50.752822
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:15:07.592613
+BATNA's instrument 'Pression' has been down for 30 minutes
+------LOG_END
+2026-10-23 21:16:58.004605
+Pression is back-up at BATNA.
+------LOG_END
+2026-10-23 22:27:36.767257
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 22:29:05.534599
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-23 23:40:47.765894
+Station DJANET is down. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-23 23:44:04.719705
+Station DJANET is back up. URL: https://10.56.16.152:8443
+------LOG_END
+2026-10-24 01:23:21.696384
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-24 01:23:21.696477
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-24 01:23:21.696524
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-24 01:24:23.136064
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 01:24:23.136848
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 01:24:23.137463
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 02:04:07.765887
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 02:04:07.766373
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 02:05:20.957629
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 02:05:20.958010
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 02:12:33.769318
+Station IN_SALAH is down. URL: https://10.53.16.151:8443
+------LOG_END
+2026-10-24 02:13:52.907922
+Station IN_SALAH is back up. URL: https://10.53.16.151:8443
+------LOG_END
+2026-10-24 03:56:56.769593
+Station SETIF is down. URL: https://10.19.16.151:8443
+------LOG_END
+2026-10-24 03:58:27.292351
+Station SETIF is back up. URL: https://10.19.16.151:8443
+------LOG_END
+2026-10-24 04:38:30.766611
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 04:38:30.767173
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 04:38:30.767446
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-24 04:40:00.766769
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 04:40:00.767364
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 04:44:11.640185
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-24 05:03:51.766650
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 05:05:18.998308
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 06:06:41.179633
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-24 06:06:41.179896
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-24 06:06:41.180070
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-24 06:08:04.822235
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 06:08:04.822386
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 06:08:04.822477
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 06:22:18.766101
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 06:22:18.766601
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 06:23:36.253937
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 06:23:36.254345
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 07:40:06.403625
+Station EL_BAYADH is down. URL: https://10.32.0.151:8443
+------LOG_END
+2026-10-24 07:45:41.915530
+Station EL_BAYADH is back up. URL: https://10.32.0.151:8443
+------LOG_END
+2026-10-24 07:54:39.542208
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-24 07:54:39.542451
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-24 07:54:39.543244
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-24 07:55:56.489093
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 07:55:56.489333
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 07:55:56.489531
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 08:03:07.766966
+Station MASCARA_GHRISS is down. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-24 08:04:12.084266
+Station MASCARA_GHRISS is back up. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-24 08:58:34.769483
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 09:03:20.091046
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 10:03:52.769005
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 10:06:43.353354
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 10:10:47.766315
+Station MASCARA_GHRISS is down. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-24 10:12:07.922543
+Station MASCARA_GHRISS is back up. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-24 10:13:38.768674
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 10:18:11.504499
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 11:07:29.766481
+Station HASSI_MESSAOUD is down. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-24 11:26:30.021302
+Station HASSI_MESSAOUD is back up. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-24 12:01:28.054361
+Station HASSI_MESSAOUD is down. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-24 12:10:07.853966
+Station HASSI_MESSAOUD is back up. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-24 13:32:34.873058
+Humidité is down at BOU-SAADA.
+------LOG_END
+2026-10-24 13:32:34.873262
+Pression is down at BOU-SAADA.
+------LOG_END
+2026-10-24 13:32:34.873399
+Temperature moyenne is down at BOU-SAADA.
+------LOG_END
+2026-10-24 13:33:41.342881
+Humidité is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 13:33:41.343116
+Pression is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 13:33:41.343276
+Temperature moyenne is back-up at BOU-SAADA.
+------LOG_END
+2026-10-24 16:35:38.816306
+Station BBM is down. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 16:35:38.843756
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 16:37:25.766331
+Station BBM is back up. URL: http://10.144.1.2:3392
+------LOG_END
+2026-10-24 16:37:25.766987
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-24 16:37:25.767548
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 16:40:36.850129
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 16:54:26.767455
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 16:55:32.792761
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 16:58:17.767170
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 16:59:19.143843
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 17:50:08.429125
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-24 17:51:18.904659
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-24 18:07:10.887331
+Station ADRAR is down. URL: https://10.1.16.152:8443
+------LOG_END
+2026-10-24 18:12:20.580883
+Station ADRAR is back up. URL: https://10.1.16.152:8443
+------LOG_END
+2026-10-24 18:17:27.768384
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 18:21:49.180956
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 18:24:58.718378
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-24 18:26:50.767333
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 18:28:33.766109
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-24 18:30:11.521928
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 18:39:54.368898
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-24 18:41:03.618367
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-24 18:42:12.650962
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-24 18:44:42.083883
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-24 18:51:53.688321
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-24 18:52:51.602953
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-24 18:55:28.342420
+Pression is down at HASSIRMEL.
+------LOG_END
+2026-10-24 18:56:32.772708
+Pression is back-up at HASSIRMEL.
+------LOG_END
+2026-10-24 18:59:15.766489
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 19:00:27.130131
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 19:19:10.766349
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 19:20:41.046386
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-24 20:58:07.766722
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 20:59:17.936993
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:10:19.768226
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:11:20.171566
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:41:59.768706
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:43:14.673847
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:49:19.765923
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 21:50:20.993829
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 22:29:33.766253
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 22:30:49.298665
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 23:20:00.767049
+Station TOUGGOURT is down. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 23:21:19.677413
+Station TOUGGOURT is back up. URL: https://10.55.16.151:8443
+------LOG_END
+2026-10-24 23:36:21.766978
+Station ANNABA is down. URL: http://10.23.16.151:8080
+------LOG_END
+2026-10-24 23:37:48.720245
+Station ANNABA is back up. URL: http://10.23.16.151:8080
+------LOG_END
+2026-10-25 01:47:07.766762
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 01:51:40.084445
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 01:54:05.770380
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 01:55:35.069398
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 02:02:22.766406
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 02:04:15.766852
+Station HASSI_MESSAOUD is down. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-25 02:05:31.174845
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 02:08:19.682573
+Station HASSI_MESSAOUD is back up. URL: https://10.30.16.151:8443
+------LOG_END
+2026-10-25 02:39:55.767005
+Station TLEMCEN is down. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 02:44:34.241447
+Station TLEMCEN is back up. URL: https://10.13.16.151:8443
+------LOG_END
+2026-10-25 03:27:47.766644
+Station ILLIZI is down. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-25 03:29:01.077642
+Station ILLIZI is back up. URL: https://10.144.1.59:8443
+------LOG_END
+2026-10-25 04:38:42.804837
+Station OUARGLA is down. URL: https://10.30.0.151:8443
+------LOG_END
+2026-10-25 04:40:02.995840
+Station OUARGLA is back up. URL: https://10.30.0.151:8443
+------LOG_END
+2026-10-25 06:13:06.765840
+Station BECHAR is down. URL: https://10.8.17.151:8443
+------LOG_END
+2026-10-25 06:18:10.920135
+Station BECHAR is back up. URL: https://10.8.17.151:8443
+------LOG_END
+2026-10-25 07:14:10.766220
+Station MASCARA_GHRISS is down. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-25 07:15:21.671776
+Station MASCARA_GHRISS is back up. URL: https://10.29.16.152:8443
+------LOG_END
+2026-10-25 08:11:03.017869
+Station GHARDAIA is down. URL: https://10.47.16.151:8443
+------LOG_END
+2026-10-25 08:12:19.159622
+Station GHARDAIA is back up. URL: https://10.47.16.151:8443
+------LOG_END
+2026-10-25 09:15:31.766503
+Station MECHERIA is down. URL: https://10.45.16.151:8443
+------LOG_END
+2026-10-25 09:45:30.607063
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:46:28.541446
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:47:27.668871
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:48:28.157380
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:49:27.861697
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:50:26.621225
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:51:28.251609
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:52:22.062007
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:53:19.690704
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:54:42.767244
+Station MECHERIA has been down for 30 minutes
+------LOG_END
+2026-10-25 09:56:11.177194
+Station MECHERIA is back up. URL: https://10.45.16.151:8443
+------LOG_END
+2026-10-25 09:57:45.766246
+Station JIJEL_ACHOUAT is down. URL: https://10.20.16.152:8443
+------LOG_END
+2026-10-25 10:02:04.890052
+Station JIJEL_ACHOUAT is back up. URL: https://10.20.16.152:8443
+------LOG_END

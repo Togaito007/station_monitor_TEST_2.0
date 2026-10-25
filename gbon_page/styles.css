@@ -539,23 +539,65 @@ body.light-mode .station-card-back {
     margin-bottom: 12px;
 }
 
-.backup-list {
+.diagnostic-list {
     display: grid;
-    gap: 12px;
-    font-size: 0.9rem;
+    gap: 10px;
+    width: 100%;
 }
 
-.backup-item {
-    padding: 10px 12px;
-    border-radius: 12px;
+.diagnostic-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 12px;
+    border-radius: 10px;
     background: rgba(148, 163, 184, 0.08);
     border: 1px solid var(--line);
+    font-size: 0.86rem;
 }
 
-.backup-item strong {
-    display: block;
-    margin-top: 4px;
+.diagnostic-label {
+    color: var(--muted);
+}
+
+.diagnostic-result {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9px;
     color: var(--text);
+    text-align: right;
+}
+
+.diagnostic-dot {
+    flex: 0 0 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--muted);
+    box-shadow: 0 0 8px currentColor;
+}
+
+.diagnostic-dot.up {
+    color: var(--green);
+    background: var(--green);
+}
+
+.diagnostic-dot.down {
+    color: var(--red);
+    background: var(--red);
+}
+
+.diagnostic-dot.checking {
+    color: var(--orange);
+    background: var(--orange);
+    animation: diagnostic-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes diagnostic-pulse {
+    from { opacity: 0.45; }
+    to { opacity: 1; }
 }
 
 .card-hint {

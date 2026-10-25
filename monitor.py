@@ -2,9 +2,11 @@ import aiohttp
 import asyncio
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor
-import concurrent.futures
+import ipaddress
 import json
 import os
+import platform
+import asyncio.subprocess
 from urllib.parse import urlsplit
 from pathlib import Path
 from typing import List, Dict, Any, Optional
@@ -60,6 +62,7 @@ down_stations: List[str] = []
 down_data: Dict[str, List[str]] = {}
 station_down_since: Dict[str, datetime] = {}
 instrument_down_since: Dict[str, Dict[str, datetime]] = {}
+station_request_lock = asyncio.Lock()
 
 # Configuration
 config = {
@@ -108,6 +111,84 @@ async def check_station(session, url):
     except Exception:
         return False
 
+
+async def check_ims_application(session, url):
+    try:
+        async with session.get(url, ssl=False, allow_redirects=True) as response:
+            return f"Up (HTTP {response.status})"
+    except (aiohttp.ClientError, asyncio.TimeoutError) as exc:
+        return f"Down ({exc.__class__.__name__})"
+
+
+async def ping_server(ip_address):
+    ping_args = (
+        ["ping", "-n", "1", "-w", "2000", ip_address]
+        if platform.system() == "Windows"
+        else ["ping", "-c", "1", "-W", "2", ip_address]
+    )
+    process = None
+    try:
+        process = await asyncio.create_subprocess_exec(
+            *ping_args,
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        await asyncio.wait_for(process.wait(), timeout=5)
+    except FileNotFoundError:
+        return "Unavailable (ping command not found)"
+    except asyncio.TimeoutError:
+        return "Down (timeout)"
+    except OSError as exc:
+        return f"Unavailable ({exc})"
+    finally:
+        if process is not None and process.returncode is None:
+            process.kill()
+            await process.wait()
+    return "Up" if process.returncode == 0 else "Down"
+
+
+async def diagnose_station(station_name):
+    try:
+        metadata = get_station_metadata(station_name)
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+    main_ip = metadata["Main IP"]
+    secondary_ip = metadata["Secondary IP"]
+    try:
+        main_address = ipaddress.ip_address(main_ip)
+        secondary_address = ipaddress.ip_address(secondary_ip)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=f"Invalid station IP address: {exc}") from exc
+
+    port = metadata["PORT"]
+    protocol = metadata["Protocol"]
+    main_host = f"[{main_ip}]" if main_address.version == 6 else main_ip
+    secondary_host = f"[{secondary_ip}]" if secondary_address.version == 6 else secondary_ip
+    main_ims_url = f"{protocol}://{main_host}:{port}"
+    secondary_ims_url = f"{protocol}://{secondary_host}:{port}"
+    timeout = aiohttp.ClientTimeout(total=5)
+
+    async with station_request_lock:
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            main_ims, secondary_ims, main_server, secondary_server = await asyncio.gather(
+                check_ims_application(session, main_ims_url),
+                check_ims_application(session, secondary_ims_url),
+                ping_server(main_ip),
+                ping_server(secondary_ip),
+            )
+
+    return {
+        "station": station_name,
+        "results": {
+            "Main IMS": {"ip": main_ip, "status": main_ims},
+            "Main server": {"ip": main_ip, "status": main_server},
+            "Secondary IMS": {"ip": secondary_ip, "status": secondary_ims},
+            "Secondary server": {"ip": secondary_ip, "status": secondary_server},
+        },
+    }
+
+
 executor = ThreadPoolExecutor(max_workers=10)
 
 async def check_station_and_data(session, name, url):
@@ -120,11 +201,9 @@ async def check_station_and_data(session, name, url):
     if accessible:
         loop = asyncio.get_event_loop()
         try:
-            data = await asyncio.wait_for(
-                loop.run_in_executor(executor, get_weather_data, url),
-                timeout=30
-            )
-        except (asyncio.TimeoutError, concurrent.futures.TimeoutError):
+            data = await loop.run_in_executor(executor, get_weather_data, url)
+        except Exception as exc:
+            print(f"Weather-data request failed for {name}: {exc}")
             data = None
         return True, data
     else:
@@ -233,24 +312,25 @@ async def get_battery_voltages(stations):
 async def monitoring_loop():
     while True:
         try:
-            # Get current status
-            statuses, data, notifications = await get_statuses(stations, config["noti_status"], config["down_alert_minutes"], config["refresh_time"])
-            voltages = await get_battery_voltages(stations)
+            async with station_request_lock:
+                # Get current status
+                statuses, data, notifications = await get_statuses(stations, config["noti_status"], config["down_alert_minutes"], config["refresh_time"])
+                voltages = await get_battery_voltages(stations)
 
-            # Update global state
-            for i, (name, url) in enumerate(stations):
-                status_str = "up" if statuses[i] else "down"
-                station_data = data[i] if data[i] is not None else {}
-                voltage = voltages[i] if i < len(voltages) else float('nan')
+                # Update global state
+                for i, (name, url) in enumerate(stations):
+                    status_str = "up" if statuses[i] else "down"
+                    station_data = data[i] if data[i] is not None else {}
+                    voltage = voltages[i] if i < len(voltages) else float('nan')
 
-                stations_status[name] = {
-                    "name": name,
-                    "url": url,
-                    "status": status_str,
-                    "data": station_data,
-                    "battery_voltage": voltage,
-                    "last_checked": datetime.now().isoformat()
-                }
+                    stations_status[name] = {
+                        "name": name,
+                        "url": url,
+                        "status": status_str,
+                        "data": station_data,
+                        "battery_voltage": voltage,
+                        "last_checked": datetime.now().isoformat()
+                    }
 
             await asyncio.sleep(config["refresh_time"])
         except Exception as e:
@@ -357,6 +437,12 @@ async def get_station_detail(station_name: str):
     if station_name not in stations_status:
         raise HTTPException(status_code=404, detail="Station not found")
     return stations_status[station_name]
+
+
+@app.get("/stations/{station_name}/diagnostics")
+async def station_diagnostics_endpoint(station_name: str):
+    return await diagnose_station(station_name)
+
 
 @app.get("/config", response_model=ConfigResponse)
 async def get_config_endpoint():

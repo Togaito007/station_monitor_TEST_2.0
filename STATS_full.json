@@ -102,8 +102,8 @@
     "Name": "DJANET",
     "OACI_code": "DAAJ",
     "OMM_code": "60670",
-    "Main IP": "10.56.16.151",
-    "Secondary IP": "10.56.16.152",
+    "Main IP": "10.56.16.152",
+    "Secondary IP": "10.56.16.151",
     "PORT": "8443",
     "Protocol": "https"
   },
@@ -167,7 +167,7 @@
     "OMM_code": "60640",
     "Main IP": "10.144.1.59",
     "Secondary IP": "10.144.1.59",
-    "PORT": "8543",
+    "PORT": "8443",
     "Protocol": "https"
   },
   {

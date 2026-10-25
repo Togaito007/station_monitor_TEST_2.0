@@ -6,6 +6,13 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 let lastKnownStations = [];
 const recentAlertKeys = new Map();
+const stationDiagnostics = new Map();
+const diagnosticOrder = [
+    'Main IMS',
+    'Main server',
+    'Secondary IMS',
+    'Secondary server'
+];
 
 function applyStoredTheme() {
     const saved = localStorage.getItem('gbon-theme');
@@ -86,6 +93,39 @@ function formatValue(value) {
     return String(value);
 }
 
+function escapeHtml(value) {
+    return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
+
+function renderDiagnostics(station) {
+    const state = stationDiagnostics.get(station.name);
+    return diagnosticOrder.map((label) => {
+        const result = state?.results?.[label];
+        const status = state?.error || (state?.loading || !state ? 'Checking...' : result?.status || 'Unavailable');
+        const ip = result?.ip;
+        const dotClass = state?.loading || !state
+            ? 'checking'
+            : status.startsWith('Up')
+                ? 'up'
+                : 'down';
+        const target = ip ? ` (${escapeHtml(ip)})` : '';
+        return `
+            <div class="diagnostic-item">
+                <span class="diagnostic-label">${label}${target}</span>
+                <span class="diagnostic-result">
+                    <span>${escapeHtml(status)}</span>
+                    <span class="diagnostic-dot ${dotClass}" aria-label="${dotClass}"></span>
+                </span>
+            </div>
+        `;
+    }).join('');
+}
+
 function summariseMissingData(data) {
     const missing = [];
     if (!data || typeof data !== 'object') return missing;
@@ -150,11 +190,11 @@ function renderStationCard(station) {
     const batteryColor = batteryInfo.color;
 
     return `
-        <article class="station-card" data-station-name="${station.name}">
+        <article class="station-card" data-station-name="${escapeHtml(station.name)}">
             <div class="station-card-inner">
                 <div class="station-card-front">
                     <div class="station-top">
-                        <div class="station-name">${station.name}</div>
+                        <div class="station-name">${escapeHtml(station.name)}</div>
                         <span class="badge ${badgeClass}">${station.status}</span>
                     </div>
                     <div class="station-ip">
@@ -176,31 +216,7 @@ function renderStationCard(station) {
                 </div>
 
                 <div class="station-card-back">
-                    <div>
-                        <div class="card-back-header">
-                            <span>Backup info</span>
-                            <span>Station</span>
-                        </div>
-                        <div class="backup-list">
-                            <div class="backup-item">
-                                <span>Primary station</span>
-                                <strong>${station.name}</strong>
-                            </div>
-                            <div class="backup-item">
-                                <span>Primary IP</span>
-                                <strong>${ip}</strong>
-                            </div>
-                            <div class="backup-item">
-                                <span>Backup station</span>
-                                <strong>Not configured yet</strong>
-                            </div>
-                            <div class="backup-item">
-                                <span>Status</span>
-                                <strong>${station.status}</strong>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-hint">Click to flip back</div>
+                    <div class="diagnostic-list">${renderDiagnostics(station)}</div>
                 </div>
             </div>
         </article>
@@ -365,8 +381,43 @@ async function fetchJson(url) {
     return response.json();
 }
 
+async function runStationDiagnostics(card, stationName) {
+    const current = stationDiagnostics.get(stationName);
+    if (current?.loading) return;
+
+    stationDiagnostics.set(stationName, { loading: true });
+    const list = card.querySelector('.diagnostic-list');
+    if (list) list.innerHTML = renderDiagnostics({ name: stationName });
+
+    try {
+        const response = await fetchJson(
+            `${window.location.origin}/stations/${encodeURIComponent(stationName)}/diagnostics`
+        );
+        const results = response.results;
+        if (!results || !diagnosticOrder.every(label => results[label]?.status)) {
+            throw new Error('The diagnostics response was incomplete.');
+        }
+        stationDiagnostics.set(stationName, { loading: false, results });
+    } catch (error) {
+        stationDiagnostics.set(stationName, {
+            loading: false,
+            error: `Unavailable: ${error.message}`
+        });
+    }
+
+    document.querySelectorAll('.station-card').forEach((stationCard) => {
+        if (stationCard.dataset.stationName !== stationName) return;
+        const resultList = stationCard.querySelector('.diagnostic-list');
+        if (resultList) resultList.innerHTML = renderDiagnostics({ name: stationName });
+    });
+}
+
 async function loadDashboard() {
     try {
+        const flippedStations = new Set(
+            [...document.querySelectorAll('.station-card.is-flipped')]
+                .map(card => card.dataset.stationName)
+        );
         const [stations, notifications] = await Promise.all([
             fetchJson(`${window.location.origin}/stations/status`),
             fetchJson(`${window.location.origin}/notifications`)
@@ -426,6 +477,11 @@ async function loadDashboard() {
         document.getElementById('stationsGrid').innerHTML = filteredStations.length
             ? filteredStations.map(renderStationCard).join('')
             : '<div class="empty-state">No stations match the selected filter.</div>';
+        document.querySelectorAll('.station-card').forEach((card) => {
+            if (flippedStations.has(card.dataset.stationName)) {
+                card.classList.add('is-flipped');
+            }
+        });
 
         const alertsContainer = document.getElementById('alertsPanel');
         alertsContainer.innerHTML = alertList.length
@@ -450,7 +506,11 @@ async function loadDashboard() {
 document.addEventListener('click', function (event) {
     const card = event.target.closest('.station-card');
     if (!card) return;
+    const isFlippingToBack = !card.classList.contains('is-flipped');
     card.classList.toggle('is-flipped');
+    if (isFlippingToBack) {
+        runStationDiagnostics(card, card.dataset.stationName);
+    }
 });
 
 requestBrowserNotificationPermission();
